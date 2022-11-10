@@ -33,7 +33,7 @@ class bubbleSort:
                         self.sorted[i], self.sorted[i + 1] = self.sorted[i+1], self.sorted[i]
 
 
-new = bubbleSort(100)
+new = bubbleSort(1000)
 print(new.array)
 new.array.sort()
 print(new.sorted)
